@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-int main()
-{
+int main(){
+
     float a, b;
     int m, n;
     scanf("%f", &a );
@@ -10,13 +10,10 @@ int main()
     b = a-m;
     n = round(b*100);
 
-
-
     printf("NOTAS:\n");
 
     printf("%d nota(s) de R$ 100.00\n",m/100);
     m = m %100;
-
 
     printf("%d nota(s) de R$ 50.00\n", m/50);
     m = m%50;
@@ -37,8 +34,6 @@ int main()
 
     printf("%d moeda(s) de R$ 1.00\n", m);
 
-
-
     printf("%d moeda(s) de R$ 0.50\n", n/50);
     n = n%50;
 
@@ -52,10 +47,6 @@ int main()
     n = n%5;
 
     printf("%d moeda(s) de R$ 0.01\n", n/1);
-
-
-
-
 
     return 0;
 }

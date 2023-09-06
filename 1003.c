@@ -1,8 +1,6 @@
 #include<stdio.h>
 
-int main()
-
-{
+int main(){
 
     int A,B,SOMA;
 
@@ -13,5 +11,4 @@ int main()
     printf("SOMA = %d\n", SOMA);
 
     return 0;
-
 }
