@@ -4,12 +4,10 @@ int main()
 {
 
     float old_salary, New_salary,Money_earned;
-
-
     scanf("%f",&old_salary );
 
-    if(old_salary>=0 && old_salary<=400.00)
-    {
+    if(old_salary>=0 && old_salary<=400.00){
+
         Money_earned=(old_salary*.15);
         New_salary=Money_earned+old_salary;
 
